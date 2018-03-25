@@ -1,3 +1,5 @@
+//###############################################################################################################################
+
 //You're allowed to have more than one return statement, so it's legal to write
 
 if (some_condition) {
@@ -11,6 +13,7 @@ if (verifyPwd())  {
   // do_task
 }
 
+//###############################################################################################################################
 
 //Sometimes you can't return early because there's more work to be done. In that case you can declare a boolean variable and set it appropriately inside the conditional blocks.
 
@@ -30,3 +33,15 @@ if (another_condition) {
 // Do some more critical things.
 
 return success;
+
+//###############################################################################################################################
+
+public boolean Test(){
+    boolean booleanFlag= true; 
+    if (A>B)
+    {booleanFlag= true;}
+    else 
+    {booleanFlag = false;}
+    return booleanFlag;
+
+}
