@@ -1,18 +1,18 @@
-You're allowed to have more than one return statement, so it's legal to write
+//You're allowed to have more than one return statement, so it's legal to write
 
 if (some_condition) {
   return true;
 }
 return false;
 
-It's also unnecessary to compare boolean values to true or false, so you can write
+//It's also unnecessary to compare boolean values to true or false, so you can write
 
 if (verifyPwd())  {
   // do_task
 }
 
 
-Sometimes you can't return early because there's more work to be done. In that case you can declare a boolean variable and set it appropriately inside the conditional blocks.
+//Sometimes you can't return early because there's more work to be done. In that case you can declare a boolean variable and set it appropriately inside the conditional blocks.
 
 boolean success = true;
 
